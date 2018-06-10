@@ -1,0 +1,25 @@
+#container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#title {
+	flex-grow: 1
+
+}
+
+/*.tc{
+	color: #000000;
+	padding: 10px;
+	margin: 10px 400px;
+}*/
+
+table{
+	flex-grow: 2
+}
+
+#button {
+	flex-grow: 1;
+}

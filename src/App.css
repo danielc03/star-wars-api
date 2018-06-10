@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.logo {
+  height: 130px;
+}
+
+.App-title{
+  text-align: center;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  height: 150px;
+  padding: 5px;
+  color: white;
+}
+header img{
+  width: 10%;
+  height: auto;
+}
+
+section {
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+@media(max-width:568px){
+  header{
+    font-size: 10px;
+    padding: 10px;
+    height: 100px;
+  }
+}

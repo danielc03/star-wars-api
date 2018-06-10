@@ -1,0 +1,11 @@
+.br-pill{
+	color: #fff;
+	background-color: darkgrey;
+	font-weight: bold;
+	border: 1px solid #fff;
+	transition: 0.5s;
+	box-shadow: 1px 1px 1px #fff;
+}
+.br-pill:hover{
+	transform: scale(1.1);
+}
